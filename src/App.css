@@ -1,0 +1,139 @@
+
+
+.card-container.card {
+  max-width: 400px;
+  padding: 70px 60px;
+}
+
+.card {
+  background-color: #fefefe;
+  margin: 0 auto 50px;
+  margin-top: 150px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 2px 25px rgba(162, 162, 162, 0.26);
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b70db;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-weight: bold;
+  width: 400px;
+  height: 250px;
+  margin: -70px -60px 50px -60px;
+  border-radius: 20px 20px 0 0 ;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+
+.delete-button, .update-button, .add-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  background-color: #fff;
+}
+.add-button{
+  background-color: rgb(55, 79, 214);
+  padding: 25px;
+}
+
+.header-home{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 50px;
+  box-shadow: 0 0 10px  rgba(10, 10, 10, 0.591);
+}
+main{
+  background-color: #eaeaea88;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 80px);
+  padding: 20px 50px;
+}
+.delete-button {
+  background-color: rgba(0, 0, 0, 0.563);
+}
+
+.update-button {
+  background-color: rgba(42, 61, 188, 0.8);
+}
+.modal-add {
+  display: flex;
+  width: 100vw;
+  margin-top: -174px;
+  box-sizing: border-box;
+  height: 100vw;
+  position: fixed;
+  flex-flow: column;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(73, 73, 73, 0.1);
+}
+.modal-add .delete-button{
+  float: right;
+  margin: -30px -15px;
+  cursor: pointer;
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #000;
+  padding: 0 0 3px 0;
+  box-shadow: 0 0 10px rgba(74, 74, 74, 0.1);
+}
+.box-modal-add {
+  background-color: #fff;
+  width: 500px;
+  height: 70vh;
+  box-shadow: 10px 10px 15px rgba(74, 74, 74, 0.1);
+  border-radius: 10px;
+ 
+}
+
+.header-modal-add {
+  text-align: center;
+  font-size: 1.3em;
+}
+.header-modal-add, .form-add {
+  padding: 50px 30px;
+}
+.img-card-b{
+  display: flex;
+  height: 100px;
+  background-image: url("/public/default-img.gif");
+  background-size: contain;
+  justify-content: space-between;
+  padding: 10px;
+}
+.img-card{
+  flex: 0 0  ;
+
+  min-width: 200px;
+  height: 200px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(73, 73, 73, 0.1);
+  margin: 25px;
+}
+.product-data {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.product-data span{
+  font-weight: bold;
+
+}
